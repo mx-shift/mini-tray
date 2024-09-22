@@ -1,0 +1,29 @@
+{
+  "fileFormatVersion": "1",
+  "parameterSets": {
+    "PDIP24": {
+      "$fs": "0.01",
+      "Body_Height": "0.195",
+      "Body_Length": "1.28",
+      "Body_Top_To_Seating_Plane_Height": "0.21",
+      "Inch_To_mm": "25.4",
+      "Pin_Length_From_Seating_Plane": "0.15",
+      "Pin_Spacing_Formed": "0.3",
+      "Pin_Spacing_Unformed": "0.43",
+      "Tab_Text": "PDIP24",
+      "Well_Padding": "[0.5, 0.5]"
+    },
+    "PDIP28": {
+      "$fs": "0.01",
+      "Body_Height": "0.195",
+      "Body_Length": "1.425",
+      "Body_Top_To_Seating_Plane_Height": "0.21",
+      "Inch_To_mm": "25.4",
+      "Pin_Length_From_Seating_Plane": "0.15",
+      "Pin_Spacing_Formed": "0.3",
+      "Pin_Spacing_Unformed": "0.43",
+      "Tab_Text": "PDIP28",
+      "Well_Padding": "[0.5, 0.5]"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "fileFormatVersion": "1",
+  "parameterSets": {
+    "QFP160": {
+      "$fs": "0.01",
+      "Body_Size": "[28, 28]",
+      "Body_To_Pin_Distance": "0.2",
+      "Package_Size": "[31.2, 31.2, 4.1]",
+      "Pin_To_Body_Height": "0.5",
+      "Tab_Text": "QFP160"
+    },
+    "QFP240": {
+      "$fs": "0.01",
+      "Body_Size": "[32, 32]",
+      "Body_To_Pin_Distance": "0.2",
+      "Package_Size": "[34.6, 34.6, 4.1]",
+      "Pin_To_Body_Height": "0.5",
+      "Tab_Text": "QFP240"
+    },
+    "VQFP44": {
+      "$fs": "0.01",
+      "Body_Size": "[10, 10]",
+      "Body_To_Pin_Distance": "0.2",
+      "Package_Size": "[12, 12, 1.2]",
+      "Pin_To_Body_Height": "0.15",
+      "Tab_Text": "VQFP44"
+    }
+  }
+}

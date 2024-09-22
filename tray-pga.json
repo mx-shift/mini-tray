@@ -1,0 +1,25 @@
+{
+  "fileFormatVersion": "1",
+  "parameterSets": {
+    "PGA175": {
+      "$fs": "0.01",
+      "Body_Size": "[1.68, 1.68, 0.145]",
+      "Body_To_Seating_Plane_Height": "0.075",
+      "Inch_To_mm": "25.4",
+      "Pin_Length_From_Seating_Plane": "0.2",
+      "Pin_Matrix_Size": "16",
+      "Pin_Pitch": "0.1",
+      "Tab_Text": "PGA175"
+    },
+    "PGA192": {
+      "$fs": "0.01",
+      "Body_Size": "[1.78, 1.78, 0.145]",
+      "Body_To_Seating_Plane_Height": "0.075",
+      "Inch_To_mm": "25.4",
+      "Pin_Length_From_Seating_Plane": "0.2",
+      "Pin_Matrix_Size": "17",
+      "Pin_Pitch": "0.1",
+      "Tab_Text": "PGA192"
+    }
+  }
+}

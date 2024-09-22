@@ -1,0 +1,29 @@
+{
+  "fileFormatVersion": "1",
+  "parameterSets": {
+    "PLCC28": {
+      "$fs": "0.01",
+      "Inch_To_mm": "25.4",
+      "Package_Size": "[0.495, 0.495, 0.18]",
+      "Pin_Center_Distance": "[0.43, 0.43]",
+      "Pin_To_Body_Height": "0.02",
+      "Tab_Text": "PLCC28"
+    },
+    "PLCC44": {
+      "$fs": "0.01",
+      "Inch_To_mm": "25.4",
+      "Package_Size": "[0.695, 0.695, 0.18]",
+      "Pin_Center_Distance": "[0.59, 0.59]",
+      "Pin_To_Body_Height": "0.03",
+      "Tab_Text": "PLCC44"
+    },
+    "PLCC84": {
+      "$fs": "0.01",
+      "Inch_To_mm": "25.4",
+      "Package_Size": "[1.195, 1.195, 0.2]",
+      "Pin_Center_Distance": "[1.09, 1.09]",
+      "Pin_To_Body_Height": "0.02",
+      "Tab_Text": "PLCC84"
+    }
+  }
+}
