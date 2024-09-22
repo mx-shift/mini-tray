@@ -23,10 +23,10 @@
 Tab_Text = "PLCC";
 
 // (X, Y, Z) size (in inches) of package including body and pins. Labeled (D, E, A) in MS-018-A.
-Package_Size = [1.195, 1.195, 0.200]; // [0:0.001:300]
+Package_Size = [1.195, 1.195, 0.180]; // [0:0.001:300]
 
-// Minimum (X, Y) distance (in inches) between centers of pins on opposite edges of package. Labeled (D2, E2) in MS-018-A.
-Pin_Center_Distance = [1.090, 1.090]; // [0:0.001:300]
+// Minimum (X, Y) distance (in inches) between centers of pins and center of package. Labeled (D2, E2) in MS-018-A.
+Pin_Center_Distance = [0.541, 0.541]; // [0:0.001:300]
 
 // Minimum distance from the bottom of a pin to the bottom of the package.
 Pin_To_Body_Height = 0.020; // 0.001
@@ -52,37 +52,37 @@ module PLCC_Well() {
     polygon(
         points = [
             [
-                (Package_Size_mm.x - Pin_Center_Distance_mm.x),
-                (Package_Size_mm.y - Pin_Center_Distance_mm.y)
+                (Package_Size_mm.x - 2*Pin_Center_Distance_mm.x),
+                (Package_Size_mm.y - 2*Pin_Center_Distance_mm.y)
             ],
             [
-                Package_Size_mm.x - (Package_Size_mm.x - Pin_Center_Distance_mm.x),
-                (Package_Size_mm.y - Pin_Center_Distance_mm.y)
+                Package_Size_mm.x - (Package_Size_mm.x - 2*Pin_Center_Distance_mm.x),
+                (Package_Size_mm.y - 2*Pin_Center_Distance_mm.y)
             ],
             [
-                Package_Size_mm.x - (Package_Size_mm.x - Pin_Center_Distance_mm.x),
-                Package_Size_mm.y - (Package_Size_mm.y - Pin_Center_Distance_mm.y),
+                Package_Size_mm.x - (Package_Size_mm.x - 2*Pin_Center_Distance_mm.x),
+                Package_Size_mm.y - (Package_Size_mm.y - 2*Pin_Center_Distance_mm.y),
             ],
             [
-                (Package_Size_mm.x - Pin_Center_Distance_mm.x),
-                Package_Size_mm.y - (Package_Size_mm.y - Pin_Center_Distance_mm.y),
+                (Package_Size_mm.x - 2*Pin_Center_Distance_mm.x),
+                Package_Size_mm.y - (Package_Size_mm.y - 2*Pin_Center_Distance_mm.y),
             ],
 
             [
-                (Package_Size_mm.x - Pin_Center_Distance_mm.x) + 0.5,
-                (Package_Size_mm.y - Pin_Center_Distance_mm.y) + 0.5
+                (Package_Size_mm.x - 2*Pin_Center_Distance_mm.x) + 0.5,
+                (Package_Size_mm.y - 2*Pin_Center_Distance_mm.y) + 0.5
             ],
             [
-                Package_Size_mm.x - (Package_Size_mm.x - Pin_Center_Distance_mm.x) - 0.5,
-                (Package_Size_mm.y - Pin_Center_Distance_mm.y) + 0.5
+                Package_Size_mm.x - (Package_Size_mm.x - 2*Pin_Center_Distance_mm.x) - 0.5,
+                (Package_Size_mm.y - 2*Pin_Center_Distance_mm.y) + 0.5
             ],
             [
-                Package_Size_mm.x - (Package_Size_mm.x - Pin_Center_Distance_mm.x) - 0.5,
-                Package_Size_mm.y - (Package_Size_mm.y - Pin_Center_Distance_mm.y) - 0.5,
+                Package_Size_mm.x - (Package_Size_mm.x - 2*Pin_Center_Distance_mm.x) - 0.5,
+                Package_Size_mm.y - (Package_Size_mm.y - 2*Pin_Center_Distance_mm.y) - 0.5,
             ],
             [
-                (Package_Size_mm.x - Pin_Center_Distance_mm.x) + 0.5,
-                Package_Size_mm.y - (Package_Size_mm.y - Pin_Center_Distance_mm.y) - 0.5,
+                (Package_Size_mm.x - 2*Pin_Center_Distance_mm.x) + 0.5,
+                Package_Size_mm.y - (Package_Size_mm.y - 2*Pin_Center_Distance_mm.y) - 0.5,
             ],
         ],
         paths = [

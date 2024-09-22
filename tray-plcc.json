@@ -5,7 +5,7 @@
       "$fs": "0.01",
       "Inch_To_mm": "25.4",
       "Package_Size": "[0.495, 0.495, 0.18]",
-      "Pin_Center_Distance": "[0.43, 0.43]",
+      "Pin_Center_Distance": "[0.191, 0.191]",
       "Pin_To_Body_Height": "0.02",
       "Tab_Text": "PLCC28"
     },
@@ -13,15 +13,15 @@
       "$fs": "0.01",
       "Inch_To_mm": "25.4",
       "Package_Size": "[0.695, 0.695, 0.18]",
-      "Pin_Center_Distance": "[0.59, 0.59]",
-      "Pin_To_Body_Height": "0.03",
+      "Pin_Center_Distance": "[0.291, 0.291]",
+      "Pin_To_Body_Height": "0.02",
       "Tab_Text": "PLCC44"
     },
     "PLCC84": {
       "$fs": "0.01",
       "Inch_To_mm": "25.4",
-      "Package_Size": "[1.195, 1.195, 0.2]",
-      "Pin_Center_Distance": "[1.09, 1.09]",
+      "Package_Size": "[1.195, 1.195, 0.18]",
+      "Pin_Center_Distance": "[0.541, 0.541]",
       "Pin_To_Body_Height": "0.02",
       "Tab_Text": "PLCC84"
     }
