@@ -17,6 +17,14 @@
       "Pin_To_Body_Height": "0.02",
       "Tab_Text": "PLCC44"
     },
+    "PLCC68": {
+      "$fs": "0.01",
+      "Inch_To_mm": "25.4",
+      "Package_Size": "[0.995, 0.995, 0.18]",
+      "Pin_Center_Distance": "[0.441, 0.441]",
+      "Pin_To_Body_Height": "0.02",
+      "Tab_Text": "PLCC68"
+    },
     "PLCC84": {
       "$fs": "0.01",
       "Inch_To_mm": "25.4",
